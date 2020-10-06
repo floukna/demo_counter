@@ -15,7 +15,7 @@ function ProviderComposer({ contexts, children }) {
 export default function ContextProvider({ children }) {
   return (
     <ProviderComposer
-      // add providers to array of contexts
+      // add providers to array of contexts 
       contexts={[<CounterProvider />]}
     >
       {children}
